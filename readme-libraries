@@ -1,0 +1,11 @@
+# Preliminary guidelines towards the implementation of A High Dynamic Range Imaging Method for Short
+Exposure Multiview Images.
+
+#Extract and copy all codes in the laerning base restoration code folder.
+#Apply Geometric transformation
+#Use SIFT-Method for feature extraction.
+#Once feature are axtracted estimate brightness difference among the adjacent viewpoints.
+#Start restoration process based on optimal contrat tonemaooing through learning based restoration
+#Construct HDR by using restored Multiview LDR Images. Use Debvec and Malik Fundamental Method for HDR recovery. 
+#Apply Tonemapping to produce LDR Images
+#Directly Fuse the Reconstructed MV-LDR images and Produce high dynamic range images with out tonemapping. 
